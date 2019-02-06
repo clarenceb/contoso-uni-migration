@@ -20,3 +20,6 @@ SQL database:
 - Create database (using SQL Management Studio)
 - Run migrations in Package Manager Console: update-database
 
+Upgrade .NET Framework
+- .NET 4.5 to .NET 4.6.1
+
