@@ -20,6 +20,13 @@
     </PackageReference>
     <PackageReference Include="Microsoft.VisualStudio.Web.BrowserLink" Version="2.2.0" />
     <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="2.2.0" />
+    
+    <!-- Entity Framework 6 -->
+    <PackageReference Include="EntityFramework" Version="6.1.1" />
+
+    <!-- Fix view errors -->
+    <PackageReference Include="PagedList.Mvc" Version="4.5.0" />
+
   </ItemGroup>
 
 </Project>
