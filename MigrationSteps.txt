@@ -17,6 +17,7 @@ Migration steps:
 
 SQL database:
 - Change connection string in web.config to use newer LocalDB: (LocalDb)\MSSQLLocalDB
+- Change LocalDbConnectionFactory localDbVersion to mssqllocaldb
 - Create database (using SQL Management Studio)
 - Run migrations in Package Manager Console: update-database
 
