@@ -24,3 +24,7 @@ SQL database:
 Upgrade .NET Framework
 - .NET 4.5 to .NET 4.6.1
 
+Migrate to ASP.NET Core (on .NER Framework)
+- Create empty ASP.NET Core Web Application (targeting .NET Framework) in the same solution (requires different name)
+- From properties, change default namespace to match (ContosoUniversity)
+- Refactor code to match this namespace throughout the empty scaffolded project
