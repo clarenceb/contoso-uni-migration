@@ -20,6 +20,7 @@ namespace ContosoUniversity
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddMvc();
+            // TODO: Change this to use Configuration once project is targetting .NET Core
             //services.AddScoped<SchoolContext>(_ => new SchoolContext(Configuration.GetConnectionString("DefaultConnection")));
             services.AddScoped<SchoolContext>(_ => new SchoolContext("Data Source=(LocalDb)\\MSSQLLocalDB;Initial Catalog=ContosoUniversity2;Integrated Security=SSPI;"));
         }

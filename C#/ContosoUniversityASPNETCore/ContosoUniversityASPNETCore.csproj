@@ -17,7 +17,7 @@
     <!-- Replace this with Microsoft.AspNetCore.App metapackage when targetting .NET Core -->
     <PackageReference Include="Microsoft.AspNetCore" Version="2.2.0" />
     
-    <!-- These only need to be explicitly referneced on .Net Framework -->
+    <!-- These only need to be explicitly referenced on .Net Framework -->
     <PackageReference Include="Microsoft.AspNetCore.Mvc" Version="2.2.0" />
     <PackageReference Include="Microsoft.AspNetCore.StaticFiles" Version="2.2.0" />
     <PackageReference Include="Microsoft.DotNet.Analyzers.Compatibility" Version="0.2.12-alpha">
