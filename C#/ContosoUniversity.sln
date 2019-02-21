@@ -9,10 +9,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{BA3246
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{CA25CADD-D0DD-4F2D-B58E-09D98E770E4C}"
 	ProjectSection(SolutionItems) = preProject
-		MigrationSteps.txt = MigrationSteps.txt
+		README.md = README.md
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContosoUniversityASPNETCore", "ContosoUniversityASPNETCore\ContosoUniversityASPNETCore.csproj", "{1F374E7E-C3DE-4CCC-AD57-021EAB41EBDD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ContosoUniversityASPNETCore", "ContosoUniversityASPNETCore\ContosoUniversityASPNETCore.csproj", "{1F374E7E-C3DE-4CCC-AD57-021EAB41EBDD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -19,16 +19,17 @@ Migration of app from .NET Framework to .NET Core
 ## Migration steps:
 
 ### SQL database:
-- Change connection string in web.config to use newer LocalDB: (LocalDb)\MSSQLLocalDB
-- Change LocalDbConnectionFactory localDbVersion to mssqllocaldb
-- Create database (using SQL Management Studio)
-- Run migrations in Package Manager Console: update-database
+- Change connection string in web.config to use newer LocalDB: `(LocalDb)\MSSQLLocalDB`
+- Change LocalDbConnectionFactory `localDbVersion` to `mssqllocaldb`
+- Created an empty database (using SQL Management Studio)
+- Run migrations in Package Manager Console: `update-database`
 
 ### Upgrade .NET Framework
-- .NET 4.5 to .NET 4.6.1
+- Change project framework from .NET 4.5 to .NET 4.6.1
 
 ### Migrate to ASP.NET Core (on .NET Framework)
-- Create empty ASP.NET Core Web Application (targeting .NET Framework) in the same solution (requires different name)
-- From properties, change default namespace to match (ContosoUniversity)
+- Create empty ASP.NET Core Web Application project (targeting .NET Framework) in the same solution (requires different project name)
+- From properties, change default namespace to match existing code namepsace (`ContosoUniversity`)
 - Refactor code to match this namespace throughout the empty scaffolded project
-- Create Controllers directory with a HomeController, Create a Views/Home directory with a basic Index.cshtml page
+- Create `Controllers` directory with a `HomeController`, Create a `Views/Home` directory with a basic `Index.cshtml` page
+- 
